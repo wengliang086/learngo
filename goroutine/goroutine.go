@@ -9,7 +9,7 @@ func main() {
 	for i := 0; i < 1000; i++ {
 		go func(i int) {
 			for {
-				fmt.Printf("Hello %d\n",i)
+				fmt.Printf("Hello %d\n", i)
 			}
 		}(i)
 	}

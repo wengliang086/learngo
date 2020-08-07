@@ -43,10 +43,9 @@ func main() {
 	fmt.Println()
 
 	// (0 4D) (1 6F) (2 4C) (3 69) (4 8309) (5 8389) (6 82B1)
-	for i, ch := range []rune (s) {
+	for i, ch := range []rune(s) {
 		// %d 输出十进制整数; %X 输出十六进制数
 		fmt.Printf("(%d %X) ", i, ch)
 	}
-
 
 }

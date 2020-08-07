@@ -30,7 +30,7 @@ func TestSubstr(t *testing.T) {
 func BenchmarkSubstr(b *testing.B) {
 	s := "吧里bs防化服好"
 	for i := 0; i < 2; i++ {
-		s = s +s
+		s = s + s
 	}
 
 	b.Logf("len(s) = %d", len(s))
