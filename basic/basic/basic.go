@@ -79,7 +79,7 @@ func consts() {
 
 func enums() {
 	const (
-		cpp        = iota
+		cpp = iota
 		javascrpit
 		_
 		python

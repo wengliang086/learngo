@@ -13,7 +13,7 @@ func TestTriangle(t *testing.T) {
 	for _, tt := range tests {
 		if actual := calcTriangle(tt.a, tt.b); actual != tt.c {
 			t.Errorf("calcTriangle(%d, %d); got %d; expected %d",
-				tt.a, tt.b, actual, tt.c, )
+				tt.a, tt.b, actual, tt.c)
 		}
 
 	}
