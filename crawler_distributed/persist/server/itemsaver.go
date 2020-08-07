@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/persist"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
 	"github.com/olivere/elastic"
+	"learngo/crawler_distributed/config"
+	"learngo/crawler_distributed/persist"
+	"learngo/crawler_distributed/rpcsupport"
 )
 
 func main() {

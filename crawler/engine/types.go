@@ -1,6 +1,6 @@
 package engine
 
-import "github.com/guopuke/learngo/crawler_distributed/config"
+import "learngo/crawler_distributed/config"
 
 type ParserFunc func(contents []byte, url string) ParseResult
 

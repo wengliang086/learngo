@@ -3,8 +3,8 @@ package parser
 import (
 	"regexp"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler_distributed/config"
+	"learngo/crawler/engine"
+	"learngo/crawler_distributed/config"
 )
 
 var (

@@ -1,6 +1,6 @@
 package worker
 
-import "github.com/guopuke/learngo/crawler/engine"
+import "learngo/crawler/engine"
 
 type CrawlService struct{}
 

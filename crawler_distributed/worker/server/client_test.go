@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
-	"github.com/guopuke/learngo/crawler_distributed/worker"
+	"learngo/crawler_distributed/config"
+	"learngo/crawler_distributed/rpcsupport"
+	"learngo/crawler_distributed/worker"
 )
 
 func TestCrawlService(t *testing.T) {

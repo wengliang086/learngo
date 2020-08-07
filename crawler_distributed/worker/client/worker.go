@@ -3,9 +3,9 @@ package client
 import (
 	"net/rpc"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/worker"
+	"learngo/crawler/engine"
+	"learngo/crawler_distributed/config"
+	"learngo/crawler_distributed/worker"
 )
 
 func CreateProcessor(clientChan chan *rpc.Client) engine.Processor {

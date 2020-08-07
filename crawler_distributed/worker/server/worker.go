@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
-	"github.com/guopuke/learngo/crawler_distributed/worker"
+	"learngo/crawler_distributed/config"
+	"learngo/crawler_distributed/rpcsupport"
+	"learngo/crawler_distributed/worker"
 )
 
 var port = flag.Int("port", 0, "the port for me to listen on")

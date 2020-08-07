@@ -3,9 +3,9 @@ package client
 import (
 	"log"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
+	"learngo/crawler/engine"
+	"learngo/crawler_distributed/config"
+	"learngo/crawler_distributed/rpcsupport"
 )
 
 func ItemSaver(host string) (chan engine.Item, error) {

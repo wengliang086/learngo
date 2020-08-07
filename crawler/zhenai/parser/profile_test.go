@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/model"
+	"learngo/crawler/engine"
+	"learngo/crawler/model"
 )
 
 func TestParseProfile(t *testing.T) {

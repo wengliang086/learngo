@@ -5,13 +5,13 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/scheduler"
-	"github.com/guopuke/learngo/crawler/zhenai/parser"
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	itemsaver "github.com/guopuke/learngo/crawler_distributed/persist/client"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
-	worker "github.com/guopuke/learngo/crawler_distributed/worker/client"
+	"learngo/crawler/engine"
+	"learngo/crawler/scheduler"
+	"learngo/crawler/zhenai/parser"
+	"learngo/crawler_distributed/config"
+	itemsaver "learngo/crawler_distributed/persist/client"
+	"learngo/crawler_distributed/rpcsupport"
+	worker "learngo/crawler_distributed/worker/client"
 )
 
 func main() {
@@ -21,7 +21,8 @@ func main() {
 		panic(err)
 	}
 
-	poll := createClientPoll()
+	//poll := createClientPoll()
+	poll := createClientPoll([]string{})
 
 	processor := worker.CreateProcessor(poll)
 

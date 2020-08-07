@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/guopuke/learngo/retriever/mock"
-	"github.com/guopuke/learngo/retriever/real"
+	"learngo/retriever/mock"
+	"learngo/retriever/real"
 )
 
 type Retriever interface {

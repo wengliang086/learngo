@@ -3,9 +3,9 @@ package persist
 import (
 	"log"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/persist"
 	"github.com/olivere/elastic"
+	"learngo/crawler/engine"
+	"learngo/crawler/persist"
 )
 
 type ItemSaverService struct {

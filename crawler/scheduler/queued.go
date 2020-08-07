@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"github.com/guopuke/learngo/crawler/engine"
+	"learngo/crawler/engine"
 )
 
 type QueuedScheduler struct {

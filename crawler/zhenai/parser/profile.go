@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/model"
+	"learngo/crawler/engine"
+	"learngo/crawler/model"
 )
 
 var ageRe = regexp.MustCompile(`<td><span class="label">年龄：</span>(\d+)岁</td>`)

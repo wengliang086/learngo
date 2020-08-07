@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/zhenai/parser"
-	"github.com/guopuke/learngo/crawler_distributed/config"
 	"github.com/pkg/errors"
+	"learngo/crawler/engine"
+	"learngo/crawler/zhenai/parser"
+	"learngo/crawler_distributed/config"
 )
 
 type SerializedParser struct {

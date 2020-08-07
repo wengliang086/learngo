@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/model"
 	"github.com/olivere/elastic"
+	"learngo/crawler/engine"
+	"learngo/crawler/model"
 )
 
 func TestSave(t *testing.T) {

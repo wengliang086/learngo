@@ -14,7 +14,7 @@ type intGen func() int
 //    a, b
 // 		 a, b
 // 			a, b
-func fibonacci() intGen {
+func Fibonacci() intGen {
 	a, b := 0, 1
 
 	return func() int {
@@ -44,7 +44,7 @@ func printFileContents(reader io.Reader) {
 }
 
 func main() {
-	f := fibonacci()
+	f := Fibonacci()
 	printFileContents(f)
 
 	// fmt.Println(f()) // 1

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/guopuke/learngo/tree"
+	"learngo/tree"
 )
 
 // 扩展已有类型-组合形式

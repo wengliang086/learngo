@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/persist"
-	"github.com/guopuke/learngo/crawler/scheduler"
-	"github.com/guopuke/learngo/crawler/zhenai/parser"
-	"github.com/guopuke/learngo/crawler_distributed/config"
+	"learngo/crawler/engine"
+	"learngo/crawler/persist"
+	"learngo/crawler/scheduler"
+	"learngo/crawler/zhenai/parser"
+	"learngo/crawler_distributed/config"
 )
 
 func main() {

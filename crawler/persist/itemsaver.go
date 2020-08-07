@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/guopuke/learngo/crawler/engine"
 	"github.com/pkg/errors"
+	"learngo/crawler/engine"
 )
 import "github.com/olivere/elastic"
 

@@ -5,8 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
-
-	"github.com/imooc-learn-go/functional/fib"
+	//"learngo/functional/fib"
 )
 
 func tryDefer() {
@@ -45,10 +44,10 @@ func writeFile(filename string) {
 	writer := bufio.NewWriter(file)
 	defer writer.Flush()
 
-	f := fib.Fibonacci()
-	for i := 0; i < 20; i++ {
-		fmt.Fprintln(writer, f())
-	}
+	//f := fib.Fibonacci()
+	//for i := 0; i < 20; i++ {
+	//	fmt.Fprintln(writer, f())
+	//}
 
 }
 
